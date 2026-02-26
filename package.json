@@ -1,0 +1,49 @@
+{
+  "name": "solana-scalping-extremo",
+  "version": "2.0.0",
+  "description": "Bot de scalping con interés compuesto para Solana - Modo Extremo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node tests/test-strategy.js",
+    "lint": "eslint .",
+    "setup": "npm install && cp .env.example .env"
+  },
+  "keywords": [
+    "solana",
+    "trading",
+    "scalping",
+    "raydium",
+    "pump-fun",
+    "crypto-bot"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "bs58": "^6.0.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "winston": "^3.11.0",
+    "chalk": "^4.1.2",
+    "figlet": "^1.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "eslint": "^8.56.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/solana-scalping-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tu-usuario/solana-scalping-bot/issues"
+  },
+  "homepage": "https://github.com/tu-usuario/solana-scalping-bot#readme"
+}
