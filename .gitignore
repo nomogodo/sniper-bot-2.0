@@ -1,0 +1,37 @@
+# Dependencias
+node_modules/
+
+# Variables de entorno (NUNCA subir .env real)
+.env
+.env.local
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporal
+tmp/
+temp/
+*.tmp
+
+# Credenciales
+*.key
+*.pem
+wallet.json
+private-key.txt
+
+# Estadísticas locales
+stats/
+data/
